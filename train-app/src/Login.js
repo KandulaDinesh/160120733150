@@ -8,11 +8,11 @@ const Login = () => {
     try {
       const authData = {
         companyName: 'Train Central',
-        clientID: '"b46128a0-fbde-4c16-a4b1-6ae6ad718e27', // Replace with your client ID
+        clientID: '"b46128a0-fbde-4c16-a4b1-6ae6ad718e27',
         ownerName: 'Ram',
         ownerEmail: 'ugs205351_cse.dinesh@cbit.org.in',
         rollNo: '160120733150',
-        clientSecret: 'XOyolORPayKBOdAN' // Replace with your client secret
+        clientSecret: 'XOyolORPayKBOdAN'
       };
 
       
