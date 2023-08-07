@@ -1,10 +1,10 @@
 import React from 'react';
-import NumberManagement from './NumberManagement';
+import NumberManagementService from './NumberManagementService';
 
 function App() {
   return (
     <div className="App">
-      <NumberManagement />
+      <NumberManagementService />
     </div>
   );
 }

@@ -1,7 +1,8 @@
+
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
-const NumberManagement = () => {
+const NumberManagementService = () => {
   const [mergedNumbers, setMergedNumbers] = useState([]);
 
   useEffect(() => {
@@ -50,4 +51,4 @@ const NumberManagement = () => {
   );
 };
 
-export default NumberManagement;
+export default NumberManagementService;
