@@ -10,8 +10,9 @@ const NumberManagementService = () => {
       try {
         const urls = [
           'http://20.244.56.144/numbers/primes',
-          'http://abc.com/fibo', // Example invalid URL
-          'http://20.244.56.144/numbers/odd'
+          'http://20.244.56.144/numbers/fibo',
+          'http://20.244.56.144/numbers/odd', // Example invalid URL
+          'http://20.244.56.144/numbers/rand'
         ];
 
         const responses = await Promise.all(
